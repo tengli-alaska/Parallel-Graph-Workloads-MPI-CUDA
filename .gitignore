@@ -1,0 +1,16 @@
+# Exclude the local LLM framework archive
+ollama.tgz
+
+# Exclude massive database and profiling binaries
+*.sqlite
+*.nsys-rep
+*.qdstrm
+*.bin
+
+# Exclude other workload examples and iteration variants
+graph_nsys*
+Twitter_v2*
+Twitter_v3*
+twitter_summary*
+mpi_event_summary*
+test_mpi_event*
